@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container header{
+    padding: 10px 0px;
+    background-image: linear-gradient(to right, #400101, #260101);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container header h1 img{
+    
+    height: 100px;
+}
+.container header ul li{
+    display: inline;
+}
+.container header ul li a{
+    padding-right: 8px;
+    margin-right: 10px;
+    font-size: 1.2em;
+    color:#DEAC2E;
+    text-decoration: none;
+}
+.container header ul li a:hover{
+    text-decoration: underline;
+}
+main div.container{
+    display: flex;
+    
+}
